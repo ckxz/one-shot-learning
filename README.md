@@ -1,7 +1,8 @@
 # one-shot-learning
 
-Training and testing was performed on CelebA Dataset (http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
-
+Training and testing was performed on CelebFaces Attributes Dataset (CelebA) (http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+None of the data pre-processing .py files are included. 
+No pre-trained networks are included.
 
 Three different models were implemented: 
 
