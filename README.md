@@ -7,7 +7,7 @@ Three different models were implemented:
 
 a) k-NN algorithm
 
-b) Siamese Neural Network (Koch et al, 2015, https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf). It can be run using different configurations:
+b) Siamese Neural Network (G. Koch, R. Zemel and R. Salakhutdinov. “Siamese neural networks for one-shot image recognition”. In: ICML deep learning workshop. Vol. 2. 2015.). It can be run using different configurations:
 	First parameter specifies the mode under which we want to run it: train/test.
 	Second parameters refers to the loss function: binary_crossentropy
 	Third parameter allows choosing if any pre-trained networks are going to be used for the branches:
@@ -16,4 +16,4 @@ b) Siamese Neural Network (Koch et al, 2015, https://www.cs.cmu.edu/~rsalakhu/pa
 		- facenet
 	Fourth parameter specifies if we're working with RGB or black and white images: ""/bw.
 	
-c) Plastic CNN (Miconi et al, 2018, https://arxiv.org/abs/1804.02464).
+c) Plastic CNN (T. Miconi, J. Clune and K. O. Stanley. “Differentiable plasticity: training plastic neural networks with backpropagation”. In: arXiv preprint arXiv:1804.02464 (2018)).
